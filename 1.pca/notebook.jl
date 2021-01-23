@@ -1,5 +1,5 @@
 ### A Pluto.jl notebook ###
-# v0.12.3
+# v0.12.18
 
 using Markdown
 using InteractiveUtils
@@ -8,6 +8,7 @@ using InteractiveUtils
 begin
 	using Pkg
     Pkg.activate(pwd())
+	Pkg.instantiate()
 end
 
 # ╔═╡ 864115a0-20d4-11eb-16ff-71d198f9342e
